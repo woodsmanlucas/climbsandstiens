@@ -1,0 +1,26 @@
+{
+  "name": "climbsandstiens",
+  "version": "1.0.0",
+  "description": "An app for a climbing gym that sells beer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodsmanlucas/climbsandstiens.git"
+  },
+  "keywords": [
+    "climbing",
+    "beer"
+  ],
+  "author": "Lucas Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woodsmanlucas/climbsandstiens/issues"
+  },
+  "homepage": "https://github.com/woodsmanlucas/climbsandstiens#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
