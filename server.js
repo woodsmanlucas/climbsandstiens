@@ -13,12 +13,10 @@ app.use(
     })
   );
 
-  app.use(
-    "/",
-    (req, res) => {
-        res.json({data: "hello world"})
-    }
-  )
+  const userRoute = require("./routes/user")
+  const employeeRoute = require("./routes/employee")
+
+  app.use("/user", userRoute)
 
   app.listen(5000, () => console.log("server is good"));
 
